@@ -1,0 +1,28 @@
+{
+  "name": "@bazuka5801/prettier-config",
+  "version": "1.0.0",
+  "description": "My personal prettier config",
+  "homepage": "https://github.com/bazuka5801/prettier-config#readme",
+  "bugs": "https://github.com/bazuka5801/prettier-config/issues",
+  "repository": "https://github.com/bazuka5801/prettier-config.git",
+  "license": "MIT",
+  "author": "bazuka5801",
+  "main": "index.js",
+  "bin": {
+    "setup-bm-prettier": "./bin.js"
+  },
+  "scripts": {
+    "auto-version": "npm-auto-version"
+  },
+  "dependencies": {
+    "@types/prettier": "*",
+    "prettier-plugin-jsdoc": "*",
+    "prettier-plugin-organize-imports": "*",
+    "prettier-plugin-packagejson": "*",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "npm-auto-version": "^1.0.0",
+    "prettier": "^2.8.3"
+  }
+}
